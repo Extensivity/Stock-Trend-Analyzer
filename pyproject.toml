@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "stock trend analyzer"
+version = "0.1.0"
+description = "StockTrendsAnalyzer is a comprehensive project for analyzing stock market data. The project uses Python, Pandas, Jupyter, and Plotly to process data, perform statistical analysis, identify trends, and generate insightful visualizations."
+authors = ["Ian Bell <IanBell702@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+plotly = "^5.22.0"
+yfinance = "^0.2.40"
+jupyterlab = "^4.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
